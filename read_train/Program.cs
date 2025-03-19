@@ -105,18 +105,17 @@ List<string> GenerateProgram(int difficult)
                 continue;
             }
 
-            if (rand < 60 && appendList() && difficult > 7)
+            if (rand < 70 && appendList() && difficult > 7)
             {
                 ok = true;
                 continue;
             }
 
-            if (rand < 75 && accessList() && difficult > 7)
+            if (rand < 90 && accessList() && difficult > 7)
             {
                 ok = true;
                 continue;
             }
-
         }
     }
 

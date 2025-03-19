@@ -1,0 +1,7 @@
+Resolva os seguintes exercícios:
+
+ex026 - https://www.hackerrank.com/challenges/equality-in-a-array/problem?isFullScreen=true
+ex027 - https://www.hackerrank.com/challenges/find-digits/problem?isFullScreen=true
+ex028 - https://www.hackerrank.com/challenges/circular-array-rotation/problem?isFullScreen=true
+ex029 - https://www.hackerrank.com/challenges/encryption/problem?isFullScreen=true
+ex030 - https://www.hackerrank.com/challenges/queens-attack-2/problem?isFullScreen=true
