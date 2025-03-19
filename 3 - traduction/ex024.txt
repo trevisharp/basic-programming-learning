@@ -1,0 +1,11 @@
+Você deseja converter um texto hexadecimal em um número inteiro correspondente.
+A conversão é bem simples: Cada caracter vale de 0 a 15. Naturalmente se o caracter
+for '0' o resultado é 0. Se for '1' vale 1. Até '9' que vale, advinha, 9. Contudo,
+o hexadecimal pode ter um caracter 'a' que vale 10, 'b' que vale 11, 'c' que vale 12
+até 'f' que vale 15. Tente não usar muitos ifs para isso, use a tabela ASCII para isso.
+Para transformar em um número basta somar os digitos multiplicados por potências de 16, por
+exemplo:
+'9' = 9 * 16^0 = 9
+'ff' = 15 * 16^1 + 15 * 16^0 = 255
+'a5f' = 10 * 16^2 + 5 * 16^1 + 15 * 16^0 = 2655
+'9876543210' = 9 * 16^9 + 8 * 16^8 + ... + 2 * 16^2 + 1 * 16^1 + 0 * 16^0

@@ -1,0 +1,3 @@
+Você deseja ordenar uma lista. Uma ideia simples para resolver é: Escolher o maior elemento da
+lista, remover dela e colocar a lista de resposta. Fazendo isso você sempre terá a lista de 
+resposta sendo contruída em ordem.

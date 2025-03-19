@@ -1,0 +1,17 @@
+Vamos supor que você possui uma função matemática a qual queira calcular a área.
+Por exemplo uma função como:
+
+def func(x):
+    return x^2
+
+Entre os pontos 0 e 10. Se voce observar verá que é difícil calcular uma área
+de uma curva complexa.
+
+Para resolver isso podemos fazer o seguinte algoritmo:
+    -Quebre o intervalo 0 a 10 em pequenos retângulos de base 1 e altura igual da função no ponto
+    -Você pode visualizar isso neste link: https://math24.net/images/riemann-sum3.svg
+    -Retangulos tem área facil de calcular, assim podemos somar a área dos retangulos
+        e aproximar a área do gráfico. Você pode ver isso aqui:
+        https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Riemann_sum_convergence.png/800px-Riemann_sum_convergence.png
+    -Quanto menor a base dos retângulos, mais retangulos são necessários e mais precisa é a conta.
+    -Diminua a base para 0.05 e veja o calculo deve dar algo como 333.33333

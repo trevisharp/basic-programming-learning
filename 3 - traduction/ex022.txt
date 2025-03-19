@@ -1,0 +1,7 @@
+Voce deseja ver em um algoritmo eficiente se algum numero repete em uma lista.
+Voce sabe que a lista tem número entre 0 a 99. Nessa condição existe uma ideia
+bem legal e simples: Faça uma lista com 100 elementos. Toda vez que você ver
+um elemento como por exemplo 55, coloque no índice 55 o valor 1. Como se você
+marcasse toda vez que encontra um valor. Se em algum momento você ver a lista
+e perceber que você já tinha achado aquele número significa que você achou uma
+repetição e deve parar o algoritmo.

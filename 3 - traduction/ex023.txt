@@ -1,0 +1,9 @@
+Voce deseja calcular o valor de PI, ou melhor, uma aproximação. Para isso existe
+uma ideia muito legal. Considere que você está jogando várias pedras aleatórios
+em um quadrado. Para isso você vai sorter uma posição x e y entre 0 e 1. Neste
+quadrado existe um lago que é um quarto de circulo. Se x^2 + y^2 < 1 (pitagoras)
+a pedra está dentro do lago, senão está fora. Você pode ver isso aqui:
+https://jordanpannell.co.uk/assets/images/MonteCarloPi1.png
+A quantidade de pedras que caem no lago dividio pelo total de pedras jogadas
+deve ser aproximadamente pi / 4. Ou seja, jogar uma quanidade gigante de 
+pedras e multiplicar por 4 deve lhe dar o valor de pi.
