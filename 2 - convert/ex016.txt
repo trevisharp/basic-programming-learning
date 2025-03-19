@@ -1,0 +1,8 @@
+funcao kmaiores(lista, k):
+    resultado = []
+    se lista for menor que k retorne a lista
+    enquanto resultado não possuir k elementos:
+        encontre o maior elemento da lista chamado x
+        remova x da lista
+        adicione x no resultado
+    retorne resultado

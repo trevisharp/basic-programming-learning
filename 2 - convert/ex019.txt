@@ -1,0 +1,16 @@
+funcao diferenca(x0, x1, y0, y1)
+    retorne (x1 - x0, y1 - y0)
+
+funcao produto_vetorial(a, b)
+    retorne a.x * b.y - a.y * b.x
+
+funcao produto_vetorial(a, b, o)
+    u = diferenca de o para a
+    v = diferenca de o para b
+    retorne produto_vetorial(u, v)
+
+funcao estadentor(pontos, ponto)
+    para cada 2 pontos p e q me sequencia
+        se produto_vetorial(p, q, ponto) < 0
+            retorne falso
+    retorne verdadeiro

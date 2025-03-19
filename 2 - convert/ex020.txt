@@ -1,0 +1,13 @@
+def funcao(x):
+    retorne 3 * x^2 - 2 * x + 10
+
+def derivada(x):
+    retorne 6 * x - 2
+
+def newton-raphson(estimativa)
+    x = estimativa
+    enquanto x mudar muito
+        movimento = funcao(x) / derivada(x)
+        subtraia movimento de x
+    retorne x
+        

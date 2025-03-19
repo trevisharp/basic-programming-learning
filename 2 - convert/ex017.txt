@@ -1,0 +1,7 @@
+funcao achar(listaOrdenada, valor)
+    se a listaOrdenada for pequena veja se o valor esta nela e retorne verdadeiro ou falso
+    pegue a o elemento do meio da lista
+    se ele for maior que o valor retorne
+        achar(metade inferior da lista, valor)
+    senão retorne
+        achar(metade superior da lista, valor)

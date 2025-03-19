@@ -1,0 +1,21 @@
+funcao unir(lista1, lista2):
+    listaResultado = []
+    enquanto lista1 e lista2 tem elementos:
+        se o primeiro elemento da lista1 é menor que o da lista2
+            coloque o primeiro elemento da lista2 na listaResultado
+        senao
+            coloque o primeiro elemento da lista2 na listaResultado
+        
+    se a lista1 tiver elementos ainda coloque todos na listaResultado em ordem
+    se a lista2 tiver elementos ainda coloque todos na listaResultado em ordem
+
+funcao ordernar(lista):
+    se a lista tiver menos de 2 elementos:
+        retorne a lista
+    se a lista for no formato [a, b] com 2 elementos:
+        retorne [ menor de a e b, maior de a e b ]
+    
+    quebre a lista no meio em duas listas x e y:
+        x = ordernar(x)
+        y = ordernar(y)
+        retorne unir(x, y)
