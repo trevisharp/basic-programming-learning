@@ -1,0 +1,5 @@
+Faça um programa que gere um arquivo .svg como um fecho convexo.
+Um fecho convexo é um conjunto de pontos que se interligados cria um
+poligono que tenha todos os pontos enviados dentro dele:
+https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ConvexHull.svg/1283px-ConvexHull.svg.png
+Desenhe em um arquivo svg com uma quantidade de N pontos aleatórios.
