@@ -3,6 +3,7 @@ ApplicationConfiguration.Initialize();
 int difficult = args.Length == 0 ? 2 : int.Parse(args[0]);
 int speed = args.Length <= 1 ? 5000 : int.Parse(args[1]);
 int i = -1;
+int time = 0;
 var program = GenerateProgram(difficult);
 
 var timer = new System.Windows.Forms.Timer {
@@ -33,7 +34,10 @@ form.KeyDown += (o, e) =>
         form.Close();
     
     if (e.KeyCode == Keys.Enter)
+    {
         i++;
+        time = 0;
+    }
 };
 
 form.Load += delegate
@@ -41,7 +45,6 @@ form.Load += delegate
     timer.Start();
 };
 
-int time = 0;
 timer.Tick += delegate
 {
     if (i == -1)
